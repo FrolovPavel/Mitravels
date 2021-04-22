@@ -44,9 +44,15 @@
   }
 
   &__btn {
-    background: $red;
+    background-color: $red;
     position: relative;
     z-index: 5;
+    transition: background-color .3s;
+
+    &:hover {
+      background-color: $redHover;
+      transition: background-color .3s;
+    }
   }
 
   &__bottom {

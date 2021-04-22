@@ -1,0 +1,100 @@
+.footer {
+  border-top: 1px solid #F2F2F2;
+  padding-top: 123px;
+
+  &__container {
+    justify-content: space-between;
+  }
+
+  &__title {
+    position: relative;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 2.15px;
+    text-transform: uppercase;
+    color: #100E0B;
+    padding-bottom: 35px;
+    margin-bottom: 35px;
+
+    &:after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 48px;
+      height: 1px;
+      background-color: #57A773;
+    }
+  }
+
+  &__link {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 29px;
+    color: #959EA6;
+    display: inline-block;
+    margin-bottom: 12px;
+    transition: color .3s;
+
+    &:hover {
+      transition: color .3s;
+      color: #4b4d58;
+    }
+  }
+
+  &__copy {
+    font-size: 13px;
+    color: #959EA6;
+  }
+
+  &__links {
+    display: flex;
+
+    &-item {
+      margin-left: 35px;
+    }
+  }
+
+}
+
+.subs-form {
+  width: 368px;
+
+  &__field {
+    width: 100%;
+    height: 64px;
+    border-radius: 8px;
+    border: 1px solid #E4E4E4;
+    padding: 0 31px;
+    background-image: url('../img/inspirations/icon.svg');
+    background-position:  90%;
+    background-repeat: no-repeat;
+
+  }
+
+  &__btn {
+    width: 100%;
+    height: 64px;
+    background-color: $neptune;
+    margin-top: 16px;
+    transition: background-color .3s;
+
+    &:hover {
+      transition: background-color .3s;
+      background-color: $neptuneHover;
+    }
+  }
+
+}
+
+.footer__bottom {
+  border-top: 1px solid #F2F2F2;
+  margin-top: 117px;
+  padding: 30px 0;
+
+}
+
+.bottom-container {
+  justify-content: space-between;
+}

@@ -1,0 +1,77 @@
+.newsletter {
+  padding-top: 52px;
+  padding-bottom: 150px;
+
+  &-content {
+    border-radius: 8px;
+    background-image: url('../img/newsletter/newsletter-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    padding: 338px 133px 178px;
+    position: relative;
+  }
+
+  &__text {
+    max-width: 370px;
+  }
+
+  &__title {
+    color: $white;
+    margin-bottom: 40px;
+  }
+
+  &__descr {
+    font-family: 'SFCompact', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: $white;
+
+  }
+
+  &__form {
+    position: absolute;
+    bottom: -96px;
+    right: 133px;
+  }
+}
+
+.subscribe-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $white;
+  width: 501px;
+  height: 416px;
+  border-radius: 8px;
+  padding-top: 53px;
+
+  &__field {
+    width: calc(100 - (72px * 2));
+    border: none;
+    border-bottom: 1px solid rgba(28, 46, 61, 0.3);
+    padding: 25px 0;
+    font-size: 11px;
+    letter-spacing: 2px;
+    color: $dark;
+    text-transform: uppercase;
+  }
+
+  &__btn {
+    margin-top: 77px;
+    width: 100%;
+    background-color: $neptune;
+    padding: 41px 80px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    transition: background-color .3s;
+
+    &:hover {
+      transition: background-color .3s;
+      background-color: $neptuneHover;
+    }
+  }
+}

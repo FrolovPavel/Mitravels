@@ -9,6 +9,23 @@
 </head>
 <body>
     <div class="site-container">
+        <div class="menu">
+            <button class="menu__close btn-reset">
+                <span class="menu__close-line"></span>
+                <span class="menu__close-line"></span>
+            </button>
+            <nav class="menu__nav">
+                <ul class="menu__list">
+                    <li class="menu__item"><a href="" class="menu__link">Become A Travel</a></li>
+                    <li class="menu__item"><a href="" class="menu__link">Featured Stories</a></li>
+                    <li class="menu__item"><a href="" class="menu__link">Featured Videos</a></li>
+                    <li class="menu__item"><a href="" class="menu__link">Newsletters</a></li>
+                    <li class="menu__item"><a href="" class="menu__link">Inspirations</a></li>
+                    <li class="menu__item"><a href="" class="menu__link">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
+
         <header class="header">
             <div class="container header__container flex">
                 <ul class="header__social social">
@@ -27,7 +44,7 @@
             </div>
         </header>
 
-        <div class="main">
+        <main class="main">
             <section class="first">
                 <div class="container first__container">
                     <a href="#" class="first__link">New Book</a>
@@ -46,6 +63,8 @@
                         </form>
                         <div class="first__slider main-slider">
                             <div class="swiper-container">
+                                <button class="first__slider-btn btn-left"></button>
+                                <button class="first__slider-btn btn-right"></button>
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide">
                                         <div class="main-slider__media">
@@ -107,7 +126,7 @@
                         <li class="featured-list__item">
                             <article class="featured-list__article">
                                 <div class="featured-list__images">
-                                    <img src="./img/featured/Avatar-1.jpg" alt="icon">
+                                    <img src="./img/featured/Ava-1.jpg" alt="icon">
                                 </div>
                                 <div class="featured-list__text">
                                     <h3 class="featured-list__title">
@@ -120,7 +139,7 @@
                         <li class="featured-list__item">
                             <article class="featured-list__article">
                                 <div class="featured-list__images">
-                                    <img src="./img/featured/Avatar-2.jpg" alt="icon">
+                                    <img src="./img/featured/Ava-2.jpg" alt="icon">
                                 </div>
                                 <div class="featured-list__text">
                                     <h3 class="featured-list__title">
@@ -133,7 +152,7 @@
                         <li class="featured-list__item">
                             <article class="featured-list__article">
                                 <div class="featured-list__images">
-                                    <img src="./img/featured/Avatar-3.jpg" alt="icon">
+                                    <img src="./img/featured/Ava-3.jpg" alt="icon">
                                 </div>
                                 <div class="featured-list__text">
                                     <h3 class="featured-list__title">
@@ -146,7 +165,7 @@
                         <li class="featured-list__item">
                             <article class="featured-list__article">
                                 <div class="featured-list__images">
-                                    <img src="./img/featured/Avatar-4.jpg" alt="icon">
+                                    <img src="./img/featured/Ava-4.jpg" alt="icon">
                                 </div>
                                 <div class="featured-list__text">
                                     <h3 class="featured-list__title">
@@ -186,7 +205,215 @@
                     </div>
                 </div>
             </section>
-        </div>
+
+            <section class="newsletter">
+                <div class="container">
+                    <div class="newsletter-content">
+                        <div class="newsletter__text">
+                            <h2 class="newsletter__title section-title">Sign Up Our Newsletter</h2>
+                            <p class="newsletter__descr">
+                                The state of Utah in the United States is home to lots of beautiful National Parks, & Bryce
+                                Canyon National Park ranks as three of the most magnificent.
+                            </p>
+                        </div>
+                        <form action="#" class="newsletter__form subscribe-form">
+                            <input type="text" name="name" placeholder="Name" class="subscribe-form__field">
+                            <input type="email" name="email" placeholder="Email" class="subscribe-form__field">
+                            <input type="tel" name="tel" placeholder="Phone Number" class="subscribe-form__field">
+                            <button class="btn btn-reset subscribe-form__btn">Sign Up Now</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+            <section class="inspirations">
+                <div class="container">
+                    <h2 class="section-title section-title--center inspirations__heading">Inspirations</h2>
+                    <p class="inspirations__descr">
+                        The state of Utah in the United States is home to lots of beautiful National Parks, & Bryce
+                        Canyon National Park ranks as three of the most magnificent & awe inspiring.
+                    </p>
+                    <ul class="grid inspirations__list">
+                        <li class="inspirations__item inspirations__item--big inspirations__item--1">
+                            <div class="inspirations__text">
+                                <a href="#" class="inspirations__category">Destinations</a>
+                                <h3 class="inspirations__title">
+                                    <a href="">A Guide To Rocky Mountain Vacations</a>
+                                </h3>
+                                <ul class="inspirations__people">
+                                    <li class="inspirations__people-item">
+                                        <img src="./img/inspirations/avatar-1.jpg" alt="icon">
+                                    </li>
+                                    <li class="inspirations__people-item">
+                                        <img src="./img/inspirations/avatar-2.jpg" alt="icon">
+                                    </li>
+                                    <li class="inspirations__people-item">
+                                        <img src="./img/inspirations/avatar-1.jpg" alt="icon">
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="inspirations__item inspirations__item--2">
+                            <button class="btn-reset inspirations__play"></button>
+                            <div class="inspirations__text">
+                                <a href="#" class="inspirations__category">Destinations</a>
+                                <h3 class="inspirations__title">
+                                    <a href="">Traveling To Barcelona</a>
+                                </h3>
+                                <ul class="inspirations__people">
+                                    <li class="inspirations__people-item">
+                                        <img src="./img/inspirations/avatar-1.jpg" alt="icon">
+                                    </li>
+                                    <li class="inspirations__people-item">
+                                        <img src="./img/inspirations/avatar-2.jpg" alt="icon">
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="inspirations__item inspirations__item--bigheight inspirations__item--3">
+                            <div class="inspirations__text">
+                                <a href="#" class="inspirations__category">Destinations</a>
+                                <h3 class="inspirations__title">
+                                    <a href="">Traveling To Barcelona</a>
+                                </h3>
+                                <ul class="inspirations__people">
+                                    <li class="inspirations__people-item">
+                                        <img src="./img/inspirations/avatar-1.jpg" alt="icon">
+                                    </li>
+                                    <li class="inspirations__people-item">
+                                        <img src="./img/inspirations/avatar-2.jpg" alt="icon">
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="inspirations__item inspirations__item--bigheight inspirations__item--4">
+                            <div class="inspirations__text">
+                                <a href="#" class="inspirations__category">Destinations</a>
+                                <h3 class="inspirations__title">
+                                    <a href="">Traveling To Barcelona</a>
+                                </h3>
+                                <ul class="inspirations__people">
+                                    <li class="inspirations__people-item">
+                                        <img src="./img/inspirations/avatar-1.jpg" alt="icon">
+                                    </li>
+                                    <li class="inspirations__people-item">
+                                        <img src="./img/inspirations/avatar-2.jpg" alt="icon">
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="inspirations__item inspirations__item--bigheight inspirations__item--5">
+                            <div class="inspirations__text">
+                                <a href="#" class="inspirations__category">Destinations</a>
+                                <h3 class="inspirations__title">
+                                    <a href="">Traveling To Barcelona</a>
+                                </h3>
+                                <ul class="inspirations__people">
+                                    <li class="inspirations__people-item">
+                                        <img src="./img/inspirations/avatar-1.jpg" alt="icon">
+                                    </li>
+                                    <li class="inspirations__people-item">
+                                        <img src="./img/inspirations/avatar-2.jpg" alt="icon">
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="inspirations__item inspirations__item--6">
+                            <button class="btn-reset inspirations__play"></button>
+                            <div class="inspirations__text">
+                                <a href="#" class="inspirations__category">Destinations</a>
+                                <h3 class="inspirations__title">
+                                    <a href="">Traveling To Barcelona</a>
+                                </h3>
+                                <ul class="inspirations__people">
+                                    <li class="inspirations__people-item">
+                                        <img src="./img/inspirations/avatar-1.jpg" alt="icon">
+                                    </li>
+                                    <li class="inspirations__people-item">
+                                        <img src="./img/inspirations/avatar-2.jpg" alt="icon">
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="inspirations__item inspirations__item--big inspirations__item--7">
+                            <div class="inspirations__text">
+                                <a href="#" class="inspirations__category">Destinations</a>
+                                <h3 class="inspirations__title">
+                                    <a href="">A Guide To Rocky Mountain Vacations</a>
+                                </h3>
+                                <ul class="inspirations__people">
+                                    <li class="inspirations__people-item">
+                                        <img src="./img/inspirations/avatar-1.jpg" alt="icon">
+                                    </li>
+                                    <li class="inspirations__people-item">
+                                        <img src="./img/inspirations/avatar-2.jpg" alt="icon">
+                                    </li>
+                                    <li class="inspirations__people-item">
+                                        <img src="./img/inspirations/avatar-1.jpg" alt="icon">
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container footer__container flex">
+                <nav class="footer__column">
+                    <h2 class="footer__title">Company</h2>
+                    <ul class="footer__list">
+                        <li class="footer__item"><a href="#" class="footer__link">About</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Press</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Blog</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Careers</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Security</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Driver Centre</a></li>
+                    </ul>
+                </nav>
+                <nav class="footer__column">
+                    <h2 class="footer__title">Information</h2>
+                    <ul class="footer__list">
+                        <li class="footer__item"><a href="#" class="footer__link">Our Story</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Recipes</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Nutrition</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Resources</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Newsletter</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Contact</a></li>
+                    </ul>
+                </nav>
+                <nav class="footer__column">
+                    <h2 class="footer__title">Information</h2>
+                    <ul class="footer__list">
+                        <li class="footer__item"><a href="#" class="footer__link">Customer service</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Recommend a restaurant</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Signup a restaurant</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Jobs</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Press</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Terms of use</a></li>
+                    </ul>
+                </nav>
+                <div class="footer__column">
+                    <h2 class="footer__title">Subscribe Now</h2>
+                    <form action="#" class="subs-form">
+                        <input type="email" class="subs-form__field" placeholder="Your email">
+                        <button class="btn-reset btn subs-form__btn">Subscribe Now</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="container bottom-container flex">
+                    <small class="footer__copy">
+                        © 2019 Mass Impressions. Designed by Tran Mau Tri Tam for Mass Impressions. All rights reserved.
+                    </small>
+                    <ul class="footer__links">
+                        <li class="footer__links-item"><a href="" class="footer__link">Terms of Service</a></li>
+                        <li class="footer__links-item"><a href="" class="footer__link">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
     </div>
 </body>
 </html>

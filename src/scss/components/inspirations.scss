@@ -1,0 +1,143 @@
+.grid {
+  display: grid;
+}
+
+.inspirations {
+  padding-top: 95px;
+  padding-bottom: 140px;
+
+  &__heading {
+    margin-bottom: 25px;
+    font-size: 64px;
+    line-height: 80px;
+    color: $dark;
+  }
+  
+  &__descr {
+    text-align: center;
+    margin: 0 auto 95px;
+    max-width: 635px;
+    font-family: 'SFCompact', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #788692;
+  }
+
+
+  &__list {
+    grid-gap: 32px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: minmax(500px, auto);
+  }
+
+  &__item {
+    position: relative;
+    background-color: #000;
+    border-radius: 8px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    &:after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 65%;
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 50%, rgba(0, 0, 0, 0.647277) 100%);
+    }
+
+    &--big {
+       grid-column-end: span 2;
+    }
+
+    &--bigheight {
+      height: 710px;
+    }
+
+    &--1 {
+      background-image: url("../img/inspirations/grid-1.jpg");
+    }
+
+    &--2 {
+      background-image: url("../img/inspirations/grid-2.jpg");
+    }
+
+    &--3 {
+      background-image: url("../img/inspirations/grid-3.jpg");
+    }
+
+    &--4 {
+      background-image: url("../img/inspirations/grid-4.jpg");
+    }
+
+    &--5 {
+      background-image: url("../img/inspirations/grid-5.jpg");
+    }
+
+    &--6 {
+      background-image: url("../img/inspirations/grid-6.jpg");
+    }
+
+    &--7 {
+      background-image: url("../img/inspirations/grid-7.jpg");
+    }
+
+  }
+
+  &__play {
+    background-image: url('../img/inspirations/play2.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+  }
+
+  &__text {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 5;
+    padding: 0 40px 47px;
+  }
+
+  &__category {
+    font-size: 10px;
+    letter-spacing: 1.1px;
+    text-transform: uppercase;
+    color: $white;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+
+  &__title {
+    font-weight: 700;
+    line-height: 40px;
+    font-size: 32px;
+    color: $white;
+    margin-bottom: 25px;
+  }
+
+  &__people {
+    display: flex;
+
+    &-item {
+      overflow: hidden;
+      border-radius: 100%;
+      border: 1px solid $white;
+      width: 48px;
+      height: 48px;
+      background-color: $white;
+
+      &:not(:first-child) {
+        margin-left: -15px;
+      }
+    }
+  }
+}

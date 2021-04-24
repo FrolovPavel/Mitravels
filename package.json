@@ -1,8 +1,8 @@
 {
-  "name": "webpack-maxgraph",
+  "name": "webpack-my",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://frolovpavel.github.io/Pizza-time/",
+  "homepage": "https://frolovpavel.github.io/Mitravels/",
   "description": "wp by mg",
   "main": "index.js",
   "scripts": {

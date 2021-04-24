@@ -16,12 +16,12 @@
             </button>
             <nav class="menu__nav">
                 <ul class="menu__list">
-                    <li class="menu__item"><a href="" class="menu__link">Become A Travel</a></li>
-                    <li class="menu__item"><a href="" class="menu__link">Featured Stories</a></li>
-                    <li class="menu__item"><a href="" class="menu__link">Featured Videos</a></li>
-                    <li class="menu__item"><a href="" class="menu__link">Newsletters</a></li>
-                    <li class="menu__item"><a href="" class="menu__link">Inspirations</a></li>
-                    <li class="menu__item"><a href="" class="menu__link">Contacts</a></li>
+                    <li class="menu__item"><a href="#become" class="menu__link">Become A Travel</a></li>
+                    <li class="menu__item"><a href="#featured" class="menu__link">Featured Stories</a></li>
+                    <li class="menu__item"><a href="#featured-videos" class="menu__link">Featured Videos</a></li>
+                    <li class="menu__item"><a href="#newsletter" class="menu__link">Newsletters</a></li>
+                    <li class="menu__item"><a href="#inspirations" class="menu__link">Inspirations</a></li>
+                    <li class="menu__item"><a href="#footer" class="menu__link">Contacts</a></li>
                 </ul>
             </nav>
         </div>
@@ -30,10 +30,10 @@
             <div class="container header__container flex">
                 <ul class="header__social social">
                     <li class="social__item">
-                        <a href="#" class="social__link social__link--fb"></a>
+                        <a href="https://www.facebook.com/" target="_blank" class="social__link social__link--fb"></a>
                     </li>
                     <li class="social__item">
-                        <a href="#" class="social__link social__link--tw"></a>
+                        <a href="https://twitter.com/?lang=ru" target="_blank" class="social__link social__link--tw"></a>
                     </li>
                 </ul>
                 <a href="#" class="header__logo logo">Mitravel</a>
@@ -63,8 +63,8 @@
                         </form>
                         <div class="first__slider main-slider">
                             <div class="swiper-container">
-                                <button class="first__slider-btn btn-left"></button>
-                                <button class="first__slider-btn btn-right"></button>
+                                <button class="first__slider-btn btn-left btn-reset"></button>
+                                <button class="first__slider-btn btn-right btn-reset"></button>
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide">
                                         <div class="main-slider__media">
@@ -74,8 +74,24 @@
                                             wonderful moutain
                                         </p>
                                     </div>
-                                    <div class="swiper-slide"></div>
-                                    <div class="swiper-slide"></div>
+                                    <div class="swiper-slide">
+                                        <div class="main-slider__media">
+                                            <button class="main-slider__play btn-reset"></button>
+                                            <button class="main-slider__pause btn-reset"></button>
+                                            <video src="./img/first/1.mp4" muted playsinline></video>
+                                        </div>
+                                        <p class="main-slider__text">
+                                            breathtaking waterfall
+                                        </p>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="main-slider__media">
+                                            <img src="./img/first/slider-2.jpg" alt="slide">
+                                        </div>
+                                        <p class="main-slider__text">
+                                            boundless forest
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -83,7 +99,7 @@
                 </div>
             </section>
 
-            <section class="become">
+            <section class="become" id="become">
                 <div class="container">
                     <h2 class="become__title section-title">Become A Travel Pro In One Easy Lesson</h2>
                     <ul class="become__list">
@@ -107,7 +123,7 @@
                 </div>
             </section>
 
-            <section class="featured">
+            <section  class="featured" id="featured">
                 <div class="container featured__container">
                     <article class="featured__article blog-article">
                         <a href="#" class="blog-article__category">featured</a>
@@ -179,7 +195,7 @@
                 </div>
             </section>
 
-            <section class="featured-videos">
+            <section class="featured-videos" id="featured-videos">
                 <div class="container featured-videos__container">
                     <h2 class="featured-videos__title section-title section-title--center">Featured Videos</h2>
                     <p class="featured-videos__descr">
@@ -190,23 +206,19 @@
                 <div class="slider-container">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide slide-1">
-                            <h3 class="slider-title">A Guide To Rocky Mountain Vacations</h3>
-                            <button class="btn-reset slide-play"></button>
+                            <h3 class="slider-title">A Guide To Endless Seas</h3>
                         </div>
                         <div class="swiper-slide slide-2">
-                            <h3 class="slider-title">A Guide To Rocky Mountain Vacations</h3>
+                            <h3 class="slider-title">A Guide To the Endless Deserts</h3>
                         </div>
                         <div class="swiper-slide slide-3">
-                            <h3 class="slider-title">A Guide To Rocky Mountain Vacations</h3>
-                        </div>
-                        <div class="swiper-slide slide-4">
                             <h3 class="slider-title">A Guide To Rocky Mountain Vacations</h3>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section class="newsletter">
+            <section class="newsletter" id="newsletter">
                 <div class="container">
                     <div class="newsletter-content">
                         <div class="newsletter__text">
@@ -226,7 +238,7 @@
                 </div>
             </section>
 
-            <section class="inspirations">
+            <section class="inspirations" id="inspirations">
                 <div class="container">
                     <h2 class="section-title section-title--center inspirations__heading">Inspirations</h2>
                     <p class="inspirations__descr">
@@ -254,7 +266,6 @@
                             </div>
                         </li>
                         <li class="inspirations__item inspirations__item--2">
-                            <button class="btn-reset inspirations__play"></button>
                             <div class="inspirations__text">
                                 <a href="#" class="inspirations__category">Destinations</a>
                                 <h3 class="inspirations__title">
@@ -274,7 +285,7 @@
                             <div class="inspirations__text">
                                 <a href="#" class="inspirations__category">Destinations</a>
                                 <h3 class="inspirations__title">
-                                    <a href="">Traveling To Barcelona</a>
+                                    <a href="">Party Jokes Startling But Unnecessary</a>
                                 </h3>
                                 <ul class="inspirations__people">
                                     <li class="inspirations__people-item">
@@ -290,7 +301,7 @@
                             <div class="inspirations__text">
                                 <a href="#" class="inspirations__category">Destinations</a>
                                 <h3 class="inspirations__title">
-                                    <a href="">Traveling To Barcelona</a>
+                                    <a href="">Maui By Air The Best Way Around The Island</a>
                                 </h3>
                                 <ul class="inspirations__people">
                                     <li class="inspirations__people-item">
@@ -306,7 +317,7 @@
                             <div class="inspirations__text">
                                 <a href="#" class="inspirations__category">Destinations</a>
                                 <h3 class="inspirations__title">
-                                    <a href="">Traveling To Barcelona</a>
+                                    <a href="">Maui By Air The Best Way Around The Island</a>
                                 </h3>
                                 <ul class="inspirations__people">
                                     <li class="inspirations__people-item">
@@ -319,7 +330,7 @@
                             </div>
                         </li>
                         <li class="inspirations__item inspirations__item--6">
-                            <button class="btn-reset inspirations__play"></button>
+
                             <div class="inspirations__text">
                                 <a href="#" class="inspirations__category">Destinations</a>
                                 <h3 class="inspirations__title">
@@ -359,7 +370,7 @@
             </section>
         </main>
 
-        <footer class="footer">
+        <footer class="footer" id="footer">
             <div class="container footer__container flex">
                 <nav class="footer__column">
                     <h2 class="footer__title">Company</h2>
@@ -369,7 +380,7 @@
                         <li class="footer__item"><a href="#" class="footer__link">Blog</a></li>
                         <li class="footer__item"><a href="#" class="footer__link">Careers</a></li>
                         <li class="footer__item"><a href="#" class="footer__link">Security</a></li>
-                        <li class="footer__item"><a href="#" class="footer__link">Driver Centre</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Driver</a></li>
                     </ul>
                 </nav>
                 <nav class="footer__column">

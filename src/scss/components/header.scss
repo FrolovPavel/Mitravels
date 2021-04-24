@@ -170,3 +170,14 @@
     }
   }
 }
+
+.fixed {
+  position: fixed;
+  background-color: $neptune;
+  opacity: .9;
+}
+
+.fixed .header__container  {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}

@@ -1,3 +1,5 @@
 import '../scss/main.scss'
 import './swiper'
 import './menu'
+import './play'
+import './header'

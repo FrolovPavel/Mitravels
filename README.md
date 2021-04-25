@@ -1,1 +1,1 @@
-Результат работы: https://frolovpavel.github.io/Mitravels/
+View the result: https://frolovpavel.github.io/Mitravels/
